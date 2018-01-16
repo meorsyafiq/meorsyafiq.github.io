@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Strawberry Muffins Demo';
+	src: url('Strawberry Muffins Demo.eot');
+	src: url('Strawberry Muffins Demo.eot?#iefix') format('embedded-opentype'),
+		url('Strawberry Muffins Demo.woff') format('woff'),
+		url('Strawberry Muffins Demo.ttf') format('truetype'),
+		url('Strawberry Muffins Demo.svg') format('svg');
+}

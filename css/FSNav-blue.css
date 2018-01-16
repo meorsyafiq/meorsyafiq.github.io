@@ -1,0 +1,55 @@
+/*
+Full Screen Navigation
+Blue color scheme
+*/
+
+/* GENERAL
+=========================================*/
+.full-screen-nav{
+	background-color: rgba(0, 193, 207, 0.99);
+}
+
+/* NORMAL MENU
+=========================================*/
+.full-screen-nav-menu li a{
+	color: #f9f9f9;
+}
+.full-screen-nav-menu li:hover a{
+	color: #fff;
+	background-color: #00afbc;
+}
+
+/* MENU OF LISTS
+=========================================*/
+.full-screen-nav-list li a{
+	color: #f9f9f9;
+}
+.full-screen-nav-list li:hover a{
+	color: #fff;
+	background-color: #00afbc;
+}
+.full-screen-nav-list li.full-screen-nav-list-header a{
+	color: #f9f9f9;
+	background-color: transparent;
+}
+
+/* MENU OF BOXES
+=========================================*/
+.full-screen-nav-boxes li a{
+	color: #f9f9f9;
+	background-color: rgba(0, 175, 188, 0.8);
+}
+.full-screen-nav-boxes li:hover a{
+	color: #fff;
+}
+
+/* MENU OF CIRCLES
+=========================================*/
+.full-screen-nav-circles li a{
+	color: #f9f9f9;
+	background-color: rgba(0, 175, 188, 0.8);
+}
+.full-screen-nav-circles li:hover a{
+	color: #fff;
+}
+

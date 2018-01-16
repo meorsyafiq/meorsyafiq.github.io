@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Cardenio Modern Bold';
+	src: url('Cardenio Modern Bold.eot');
+	src: url('Cardenio Modern Bold.eot?#iefix') format('embedded-opentype'),
+		url('Cardenio Modern Bold.woff') format('woff'),
+		url('Cardenio Modern Bold.ttf') format('truetype'),
+		url('Cardenio Modern Bold.svg') format('svg');
+}

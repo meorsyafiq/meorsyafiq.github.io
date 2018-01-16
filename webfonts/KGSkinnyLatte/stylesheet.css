@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'KGSkinnyLatte';
+	src: url('KGSkinnyLatte.eot');
+	src: url('KGSkinnyLatte.eot?#iefix') format('embedded-opentype'),
+		url('KGSkinnyLatte.woff') format('woff'),
+		url('KGSkinnyLatte.ttf') format('truetype'),
+		url('KGSkinnyLatte.svg') format('svg');
+}

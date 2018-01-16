@@ -1,0 +1,61 @@
+// Using the Form Validation Tool
+
+// Step One: Add the Scripts and CSS to the page header 
+	The JQuery plugin script is include below - only use once - 
+	so if its already in the page remove the one below.
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+	<link href="css/validate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+	
+	<script type="text/javascript" src="js/validate.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('form.required-form').simpleValidate({
+				errorElement: 'em'
+			});
+		});
+	</script>
+
+// Step Two: Add classes to form. 
+	There is a class on the form tag:
+	
+		<form action="thanks.htm" class="required-form" method="post">
+
+	The error code is right after the label tag
+	
+		<em class="required">*</em>
+	
+	The required class goes on the input tag of required fields:
+	
+		<input type="text" name="name" id="name" class="required" />
+	
+	Complete Example: (Form elements should be enclosed in <li> tags
+
+      <form action="Enter Processor Script" class="required-form" method="post">
+      
+        <ol class="forms">
+            <li><label for="name"><em class="required">*</em> Name</label><input type="text" name="name" id="name" class="required" /></li>
+            <li><label for="email"><em class="required">*</em> Email</label><input type="text" name="email" id="email" class="required email" /></li>
+            <li><label for="website">Website</label><input type="text" name="website" id="website" /></li>
+            <li><label for="comment"><em class="required">*</em> Comment</label><textarea name="comment" id="comment" class="required"></textarea></li>
+            <li class="buttons"><button type="submit">Submit</button></li>
+        </ol>
+        
+      </form>
+
+// Alternate Script Handler - This allows AJAX form handling after form submission.
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('form.required-form').simpleValidate({
+			  errorElement: 'em',
+			  ajaxRequest: true,
+			  completeCallback: function($el) {
+			  var formData = $el.serialize();
+			  }
+			});
+		});
+	</script>

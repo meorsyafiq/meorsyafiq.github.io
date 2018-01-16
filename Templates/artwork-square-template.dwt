@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/timothy.js"></script>
+	
+    <link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen">
+	<link href="../css/print.css" rel="stylesheet" type="text/css" media="print">
+    
+<link rel="stylesheet" type="text/css" media="all" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="../css/jgallery.min.css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="cache" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<meta name="keywords" content="Enter Keywords" />
+	<meta name="description" content="Description Here" />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Meor Syafiq-Online Resume</title>
+	<!-- TemplateEndEditable -->
+	<!-- Google Analytics Code Goes Below Here -->
+        
+    
+    <!-- End Google Analytics Code -->
+	
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onLoad="MM_preloadImages('../images/backbutton-black-tukar-01.png')">
+
+<div id="outer3">
+	
+		<center>
+		<div id="title-artwork-graphic">
+        
+      		 <img src="../images/banner-artwork-graphic-01.png"/>
+            		
+		</div>
+        </center>
+        
+        <br>
+        
+        
+        <center>
+      <div id="intro-artwork-graphic">
+      <img src="../images/wording-artwork-graphic-01.png"/>
+        
+      </div>
+      </center>
+        
+        
+        
+        <div id="content-artwork-graphic">
+        
+   
+		</div>
+<div id="testing">
+<div id="gallery">
+    <img src="../images/collection-poster1-01.jpg" alt="Poster - Class Activity" />
+    <img src="../images/collection-poster2-01.jpg" alt="Poster - Extra Curricular" />
+    <img src="../images/collection-poster4-01.jpg" alt="Brand Rebranding - Packaging and Sticker" />
+    <img src="../images/collection-poster3-01.jpg" alt="Graphics for Theatre - In House" />
+    <img src="../images/collection-poster5-01.jpg" alt="Visual Report 1" />
+    <img src="../images/collection-poster6-01.jpg" alt="Visual Report 2" />
+</div>
+<script type="text/javascript">
+$( function() {
+    $( '#gallery' ).jGallery( { mode: 'slider' } );
+} );
+</script>
+
+</div>
+
+ 	<center>
+	<div id="backbutton"> <a href="../artwork.html"><img src="../images/backbutton-black-01.png" class="tolakbackbutton" id="Image1" onMouseOver="MM_swapImage('Image1','','../images/backbutton-black-tukar-01.png',1)" onMouseOut="MM_swapImgRestore()"/></a>
+	</div>
+    </center>
+				
+			<div id="footer1">
+        
+        	<p class="footerfont">MEOR SYAFIQ. COPYRIGHT 2017. ALL 		RIGHTS RESERVED.</p>
+		
+		</div>        
+   </div>
+   
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jgallery.js"></script>
+<script type="text/javascript" src="../js/tinycolor-0.9.16.min.js"></script>
+
+</body>
+</html>
+
+<!-- Timothy Framework - www.timothyframework.com -->
+
+<!-- This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php -->

@@ -1,0 +1,361 @@
+/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+/* Reset */
+
+html, body { margin: 0; padding: 0; border: 0;  
+				background: transparent; font-size:10px; }
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, 
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+
+img 	{ margin:0; padding:0; border:0; }
+
+table, tr, th, td, tbody, tfoot, thead {
+	margin: 0; padding: 0; border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	}
+	
+table { border-collapse: collapse; border-spacing: 0; }
+	
+input, select, textarea, form, fieldset {
+	margin: 0; padding: 0; border: 0;
+	}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { 
+	display:block; }
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color: #000;
+	}
+
+ol, ul { list-style: none; }
+
+
+/* Global */
+
+html 	{	}
+body	{background-color:#3FA6D2 }
+
+
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; color: #000; }
+
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:14px; }
+h6 { font-size:14px; }
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin: 0; }
+
+
+
+/* Text Elements */
+
+p           	{ color:#000; font-size:12px; line-height:150%;  }
+p .left			{ margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p .right 		{ margin: 1.5em 0 1.5em 1.5em; padding: 0; }
+
+a           	{   }
+a:link			{ color: #00f;  }
+a:visited		{ color: #0f0;  }
+a:active		{ color: #000;  }
+a:focus			{ color: #666;  }
+a:hover     	{ color: #f00;  }
+
+blockquote  	{ color:#000; font-size:12px; }
+
+strong      	{ font-weight: bold; }
+em		      	{ font-style: italic; }
+
+/* Images */
+.gear     {margin:40px 160px; }
+.knowmealign {margin: -30px 65px ;}
+.tolakknowme	{height:00px;}
+
+
+/* Lists */
+
+ul          	{  }
+ol          	{ list-style-type:decimal; }
+
+ul li		    { color:#000; font-size:12px; }
+ol li	     	{ color:#000; font-size:12px; }
+
+dl          	{  	}
+dt       		{  	}
+dd          	{ 	}
+
+
+
+/* Tables */
+
+table       	{ width:100%; }
+
+tr				{	}
+.odd			{ background-color:#eee; }
+.even			{ background-color:#fff; }
+
+th          	{ font-weight: bold; }
+thead, th    	{ background: #ccc; }
+
+tbody			{   }
+
+th,td,caption 	{ 	}
+caption 		{ 	}
+
+tfoot       	{	}
+.tfooter		{ background-color:#ccc; text-align:center; font-style:italic; }
+
+caption     	{ background: #efefef; }
+
+
+
+/* Miscellaneous */
+
+sup, sub    	{ line-height: 0; }
+
+abbr, acronym   { border-bottom: 1px dotted #666; }
+address     	{ 	 }
+del         	{ background:#FFCECE; color:#f00; }
+
+code, pre		{ background-color:#FF9; padding:2px 0px; margin:4px 25px;
+					font-family:"Courier New", Courier, monospace; font-size:12px; font-weight:normal; line-height:150%;	}
+
+
+/* Containers */
+
+#outer1					{width:1252px; height:950px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+#outer2					{width:1252px; height:614px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+#outer3					{width:1252px; height:1000px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+#outer4					{width:1252px; height:1000px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+#outer5					{width:1252px; height:1420px; margin-left:90px; margin-top:0px; background-color:#003366; }
+#outer6					{width:1252px; height:850px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+#outer11					{width:1252px; height:1400px; margin-left:90px; margin-top:0px; background-color:#1B3564; }
+
+#wrapper 				{width:1440px; margin:auto; background-color:transparent;    }
+
+#topnav					{clear:both;}
+#topnav ul li			{ display:inline}
+#topnav ul				{margin: 20px 0; padding: 10px 0 }
+#topnav ul li a 		{padding: 0 25px;}
+#topnav a:link			{ color: #CCC ; }
+#topnav a:visited		{ color: #CCC ; }
+#topnav a:active		{ color: #000 ; }
+#topnav a:focus			{ color: #FFF ; }
+#topnav a:hover			{ color: #FFF ; }
+
+
+#box1 					{ width:480px; height:300px; float:left; background-image: url(../images/bluebg-01.png)  }
+#box2 					{ width:480px; height:300px; float:left; background-image:url(../images/bgresumeblue-01.png)  }
+#box3 					{ width:480px; height:300px; background-image:url(../images/bgresumeblue-01.png); float:right;  }
+#box4 					{ width:480px; height:300px; float:left;   }
+#box5 					{ width:480px; height:300px; float:left; }
+#box6 					{ width:480px; height:300px; float:right; background-image:url(../images/bgbluedarker-01.png);  }
+#box7					{ width:480px; height:300px; float:left; background-color:#3999C4}
+#box8      				{ width:480px; height:300px; float:left; background-image:url(../images/bgbluedarker-01.png)}
+#box9   				{ width:480px; height:300px; float:right; background-color:#3999C4; }
+#bigintro	 			{margin-top:160px; margin-left:490px   }
+
+#caption 				{margin-top:70px; margin-left:500px   }
+
+#start 					{   }
+#wording-experience		{ margin-left:560px;}
+#intro-logo				{ margin-top:150px;}
+#start ul li 			{margin-left:600px; margin-top:100px}
+#picture-collage		{float:right; margin-right:550px; margin-top: 40px; }
+#content-about-me		{float:right; margin-top:40px; margin-right:-620px; }
+#content-resume			{float:left; margin-top:-10px; margin-left:-1px ;} 
+#content-what-i-do		{margin-right: 0px; }
+#title-about-me			{height:300px; float:left}
+#education-resume		{float:right; }
+#title-resume			{float:left;}
+#artwork-graphic		{ float:left;}
+#artwork-videos			{ float:left;}
+#artwork-project		{ float:left;}
+#artwork-games			{ float:left;}
+#backbutton2			{ margin-top:-60px; }
+
+#title-artwork			{ float:left; margin-left:200px;}
+#title-what-i-do		{ margin-left:173px;}
+#banner-what-i-do		{width:1252px; height:253px; background-color:transparent; }
+#box-right-artwork		{float:right ;}
+
+#content-artwork-graphic { } 
+#title-artwork-graphic	{ } 
+#content-contact		{}
+#contact-wrapper		{ }
+#title-contact			
+#show-nav				{  }
+
+
+#video1					{float:left; width: 433px; height: 243px; margin-left:190px; }
+#video2					{float:right; width: 433px; height: 243px; margin-right:190px; }
+#video3					{float:left; width: 433px; height: 243px; margin-left:190px; }
+#video4					{float:right; width: 433px; height: 243px; margin-right:190px; }
+#video5					{float:left; width: 433px; height: 243px; margin-left:400px; }
+#video6					{float:right; width: 433px; height: 243px; margin-right:190px;   }
+
+#footer 				{float:right;   }
+#footer1				{float:right; height:20px; margin-left:800px; margin-top:25px; clear:both; }
+#footer2				{float:right; height:20px; margin-left:700px; margin-top:10px; clear:both; }
+#footer3				{float:right; height:20px;clear:both; margin-right:170px; }
+#footer4				{float:right; margin-right:150px;}
+#footer5				{ float:right; margin-right:100px; margin-top:-10px;}
+#footer6				{float:right; margin-top:35px;}
+#footer7				{float:right; margin-top:60px;}	
+#footer8				{ float:left; margin-left:420px; margin-top:60px;}	
+#footer9				{float:right; height:20px; margin-left:700px; margin-top:15px; }
+#footer10				{float:right; margin-right:80px; margin-top:30px;  }
+#footer11				{float:right; margin-top:90px;}	
+#footer12				{float:right; height:20px; margin-left:600px; margin-top:55px; clear:both; }
+
+
+
+/* Layout Extra */
+
+
+
+
+/* Navigation Extra */
+
+
+
+/* Forms */
+
+form ol { list-style-type:none; }
+
+form 	{ text-align:left; margin:20px;	}
+
+label 	{ 
+		float: left; width: 150px; margin-top:5px;
+		text-align:right; display:block; background:none; font-weight:bold;
+		}
+	
+submit	{ background:none; 	}
+
+input 	{ 
+		width: 280px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+		
+input:focus, textarea:focus	{ background-color:#BFEBFF; }
+
+textarea {
+		width: 280px; height: 150px; margin:0 0 16px 10px;
+		border:1px #bbb solid; padding:5px; background:none; 
+		}
+
+select { margin-bottom:20px;	}
+	
+.month { margin-left:155px;	}
+
+.submit {
+		width:90px; height:25px;
+		margin-left:160px;
+		font-size:12px;
+		}
+
+br		{ clear: left; 	}
+
+.clear	{ clear:both; }
+
+
+/* Miscellaneous  */
+
+.caption		{color:#FFF ; font-family:"big noodle titling"; font-size:36px; margin-left:60px }
+.meorp1			{color:#000; font-family:"big noodle titling"; font-size:36px; }
+.footerfont 	{color:#333; font-family:"Cardenio Modern Bold"; font-size:26px;}
+.headerartwork	{color:#FFF; font-family:"Om Telolet Om"; font-size:28px ; }
+.tolakbackbutton	{margin-top:25px;}
+.tolakbackbutton5	{margin-top:85px;}
+.tolakbackbutton2	{ margin-top:-100px;}
+.tolakbackbutton3	{ margin-top:-20px; }
+.videotextfont	{font-size:36px;}
+.contactfont	{font-family:"Strawberry Muffins Demo"; font-size:24px;}
+.tolaknav		{margin-left:190px;}
+.tolaknav2		{margin-top:120px;}
+.footerfontputih	{color:#FFF; font-family:
+"Cardenio Modern Bold"; font-size:26px;}
+.tukarexperience	{color:#FFF; font-family:"Cardenio Modern Bold"; font-size:35px;}
+.fonttopnav			{ color:#FFF; font-size:30px; font-family:"Strawberry Muffins Demo" ; }
+
+
+.copyright-text	{ font-size:80%; font-style:italic; color:#333; }
+.footer-text	{ font-size:80%; font-style:normal; color:#666; }
+
+.title			{ font-size:18px; font-weight:bold; color:#333;  }
+.subtitle		{ font-size:14px; font-style:italic; color:#333;  }file:///Users/meorsyafique/Desktop/Portfolio%20Meor%20v1/images/welcome-01.png
+
+.artist			{ font-size:16px; font-weight:bold; color:#333;  }
+.author			{ font-size:14px font-weight:bold; color:#555;  }
+.editor			{ font-size:14px font-style:italic; color:#555;  }
+
+.pub-date		{ font-size:10px font-style:italic; color:#555; }
+.article-date	{ font-size:10px font-style:italic; color:#555;  }
+.location		{ font-size:10px font-style:italic; color:#555;  }
+
+.float-right	{ float:right; }
+.float-left		{ float:left; }
+.clear			{ clear:both; }
+
+.hide			{ display:none; }
+.block			{ display:block; }
+.inline			{ display:inline; }
+
+.first			{ font-weight:bold; }
+.last			{ font-weight:bold; }
+.left			{ font-weight:bold; text-align:left; }
+.right			{ font-weight:bold; text-align:right; }
+
+.added      	{ background:#D7D7FF; }
+.removed    	{ background:#FFCECE; color:#f00; }
+.changed		{ background:#FFB; }
+
+
+/* Success, info, notice and error/alert boxes - from Blueprint CSS Framework */
+
+.error, .alert, .notice, .success, .info {
+	padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert 	{ background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+	
+.notice			{ background: #fff6bf; color: #514721; border-color: #ffd324; }
+	
+.success   		{ background: #e6efc2; color: #264409; border-color: #c6d880; }
+	
+.info 			{ background: #d5edf8; color: #205791; border-color: #92cae4; }
+	
+.error a 	{ color: #8a1f11; }
+.alert a 	{ color: #8a1f11; }
+	
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+.info a		{ color: #205791; }
+
+
+
